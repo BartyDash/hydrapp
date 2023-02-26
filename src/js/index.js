@@ -31,7 +31,7 @@ buttonAdd.addEventListener('click', () => {
 });
 
 buttonRemove.addEventListener('click', () => {
-    if(glassCounter){
+    if(glassCounter > 0){
         glassCounter--;
         glassCounterText.innerHTML = glassCounter;
         localStorage.setItem(key, glassCounter);
