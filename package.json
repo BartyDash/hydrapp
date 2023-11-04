@@ -1,0 +1,20 @@
+{
+  "name": "hydrapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.10.2",
+    "@parcel/transformer-webmanifest": "^2.10.2",
+    "parcel": "^2.10.2",
+    "tailwindcss": "^3.3.5"
+  }
+}
