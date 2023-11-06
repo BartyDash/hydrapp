@@ -4,11 +4,11 @@ const counter = document.querySelector('.counter--js');
 
 let glasses = 0;
 
-let key = new Date().toLocaleString().split(',')[0];
+let key = new Date().toLocaleDateString();
 
 setInterval(() => {
-    if (key !== new Date().toLocaleString().split(',')[0]) {
-        key = new Date().toLocaleString().split(',')[0];
+    if (key !== new Date().toLocaleDateString()) {
+        key = new Date().toLocaleDateString();
         glasses = 0;
         setCounterValue(glasses);
     }
