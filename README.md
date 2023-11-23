@@ -25,6 +25,10 @@
 
 During the development of this project, I gained experience in building my first PWA using Parcel and Tailwind. In addition, I practiced already learned technologies like localstorage, dynamic loading using JS and the previously mentioned Tailwind.
 
+## Continued development
+
+I am going to learn how to represent the data with a graph to give users the option to view the saved glasses each day.
+
 ## Run Locally
 
 1. Clone the repository to your local machine:
